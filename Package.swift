@@ -1,4 +1,4 @@
-// swift-tools-version:5.4
+t// swift-tools-version:5.4
 
 import PackageDescription
 
@@ -14,8 +14,8 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(url: "https://github.com/johnpatrickmorgan/FlowStacks", "0.3.6" ..< "0.6.0"),
-    .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.8.0"),
+    .package(url: "https://github.com/johnpatrickmorgan/FlowStacks", exact: "0.3.6"),
+    .package(url: "https://github.com/pointfreeco/swift-composable-architecture", exact: "1.8.0"),
   ],
   targets: [
     .target(
